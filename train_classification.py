@@ -16,6 +16,7 @@ import shutil
 import argparse
 
 from pathlib import Path
+from rich import print
 from tqdm import tqdm
 from data_utils.ModelNetDataLoader import ModelNetDataLoader
 
